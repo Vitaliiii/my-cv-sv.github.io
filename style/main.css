@@ -1,0 +1,230 @@
+/* General styles */
+body{
+    background: #e2e2e2;
+    position: relative;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #1e5799;
+  }
+
+  .page{
+    width: 900px;
+    height: 1150px;
+    margin: 15px auto;
+    background-color: white;
+    box-shadow: 5px 0px 2px  white;
+    display: flex;
+  }
+
+  h1{
+    font-size: 57px;
+    margin: 7px 0;
+  } 
+
+  h4{
+    color:#79B7E7;
+  }
+
+  ul{
+    color:#79B7E7;
+  }
+
+  /* First page left container general styles */
+
+  #leftContainer{
+    width: 25%;
+    height: 100%;
+    color: white;
+  }
+
+  #mainPhoto{
+    position: relative;
+    height: 290px;
+
+  }
+
+  #myData{
+    height: 860px;
+    background: #1e5799;
+    background: -moz-linear-gradient(top, #1e5799 0%, #207cca 29%, #207cca 29%, #2989d8 62%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 29%,#207cca 29%,#2989d8 62%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #1e5799 0%,#207cca 29%,#207cca 29%,#2989d8 62%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+  }
+
+  #mPhoto{
+    width: 190px;
+    height: 210px;
+    margin: 20px;
+    border-radius: 0 20% 0 0;
+    box-shadow: 0px 0px 5px gray;
+  }
+
+  #headData{
+    height: 70px;
+    width: 100%;
+    padding: 15px 0px;
+    position: relative;
+  }
+
+  .icon{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .contactInformation{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    text-align: center;
+  }
+
+  /* First page right container general styles */
+
+  #rightContainer{
+    width: 75%;
+    height: 100%;
+  }
+
+  #head{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #contacts{
+    width: 150px;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin: auto;
+  }
+
+  .smollContactInformation{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+  }
+
+  .contactText{
+    font-size: 14px;
+  }
+
+  #head p{
+    margin: 5px 0;
+  }
+
+  #infoPage1{
+    width: 80%;
+    height: auto;
+    margin: 58px auto;
+
+  }
+
+  .content{
+    margin: 40px 0;
+  }
+
+  .infoPage23{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  #headContent{
+    width: 70%;
+    height: auto;
+  }
+
+  #skills{
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .skillsContent{
+    width: 200px;
+    height: auto;
+  }
+
+  .headSkils{
+    padding-left: 15px;
+  }
+
+  #smollContact{
+    width: 101%;
+    height: auto;
+    padding-bottom: 10px;
+    color: white;
+    background: #1e5799;
+    background: -moz-linear-gradient(left,  #1e5799 0%, #2989d8 50%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left,  #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+    background: linear-gradient(to right,  #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+
+  }
+
+  /* Popup container - can be anything you want */
+
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  #iconInfo{
+    width:20px;
+    height: 20px;
+    margin:0 10px;
+  }
+

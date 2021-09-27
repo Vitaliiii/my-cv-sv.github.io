@@ -1,0 +1,114 @@
+@media screen and (max-width: 600px){
+
+   /* General styles for smoller page*/
+
+    .page{
+      width: 340px;
+      height: 1000px;
+    }
+
+    h1{
+      font-size: 35px;
+    }
+
+    h2{
+      margin: 5px 0;
+    }
+
+    hr{
+      margin: 2px 0;
+    }
+
+     /* General styles for container on first page*/
+
+    #leftContainer{
+      width: 0;
+    }
+
+    #rightContainer{
+      width:100%
+    }
+
+     /* Styles for main photo*/
+
+    #mPhoto{
+      width: 97px;
+      height: 115px;
+      margin: 10px;
+    }
+
+    #myData{
+      display: none;
+    }
+
+
+    #head p{
+      font-size: 80%;
+      margin: 3px 0;
+    }
+
+    #head{
+      width: auto;
+      margin-left: 115px;
+    }
+
+    #textFirst{
+      display: none;
+    }
+
+    #infoPage1{
+    width: 80%;
+    margin: 15px auto;
+    font-size: 80%;
+    }
+
+    .infoPage23{
+      margin: 15p auto;
+      font-size: 73%;
+    }
+
+    .content{
+      margin: 15px 0;
+    }
+
+    #contacts{
+      width: 90%;
+      height: auto;
+      font-size: 18px;
+      padding: 15px 0 5px 0;
+    }
+
+    .contactText{
+      padding: 3px 0 0 15px;
+    }
+
+    .icon{
+      width: 25px;
+      height: 25px;
+    }
+
+    #smollcontact{
+      margin-top: 5px;
+    }
+
+    #iconInfo{
+      width: 15px;
+      height: 15px;
+    }
+
+  }
+
+  /* Popup screen option */
+
+  @media screen and (max-width: 440px){
+    .popup .popuptext{
+      margin-left: 70px;
+    }
+  }
+
+  @media screen and (min-width: 600px){
+
+    #smollContact{
+      display: none;
+    }
+  }

@@ -1,0 +1,73 @@
+@media screen and (max-width: 910px){
+  /* General styles for smoll page*/
+
+    .page{
+      width: 600px;
+    }
+
+    h1{
+      font-size: 40px;
+      margin: 3px 0;
+    }
+
+    h3{
+      margin: 10px 0;
+    }
+
+    h4{
+      margin: 5px 0;
+    }
+
+    p{
+      margin: 2px 0;
+      font-size: 90%;
+      overflow-wrap: anywhere;
+    }
+
+    hr{
+      margin: 3px 0;
+    }
+
+    /* Styles for main photo*/
+    #mPhoto{
+      width: 127px;
+      height: 145px;
+      margin: 15px;
+    }
+
+    #mainPhoto{
+      height: 220px;
+    }
+
+    /* Styles for left container on first page*/
+
+    #myData{
+      height: 930px;
+    }
+
+    .contactText{
+      padding: 0 3px;
+    }
+
+    #contacts{
+      width: 120px;
+      padding: 30px 0 20px 0;
+      font-size: 22px;
+    }
+
+    /* General styles for pages*/
+
+    #infoPage1{
+    width: 85%;
+    margin: 45px auto;
+    }
+
+    .infoPage23{
+      font-size: 90%;
+    }
+
+    .content{
+      margin: 20px 0;
+    }
+
+  }
